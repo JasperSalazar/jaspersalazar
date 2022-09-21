@@ -1,0 +1,1122 @@
+@charset "UTF-8";
+
+
+li {
+    float: left;
+    background-color:black;
+    margin:40px;
+    margin-top: 10px;
+    }
+ 
+a {
+    text-decoration: none;
+    color:red;
+    font-size:20px;
+
+}
+  a:hover {
+    display: block;
+    text-align: center;
+    padding: 1px 1px;
+    background-color:grey;
+    
+    }
+
+    
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+
+body {
+    background-image:url("/JasperSalazar/images/ok.gif");
+}
+
+header {
+    font-size:50px;
+    color:white;
+    background-color: grey;
+    margin-top: 0px;
+    border:10px solid rgb(31, 31, 247); 
+    text-shadow: 2px 2px red;
+}
+
+.header1 {
+    font-size:50px;
+    color:white;
+    margin-top: 0px;
+    text-shadow: 2px 2px blue;
+    -webkit-box-reflect: below 0 linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.MainPic {
+    float:left;
+    margin-left:200px;
+    margin-right: 20px;
+    position: relative;
+    width: 300px;
+    height:300px;
+    border: 5px solid rgb(31, 31, 247);
+}
+
+
+/* this where i code to hover the text on image profile */
+.overlay {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 200px;
+    height:200px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove grey;
+  }
+
+  .MainPic:hover .overlay {
+    bottom: 0;
+    height: 300px;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* first paragraph */
+.intro {
+    margin-left: 300px;
+    font-size:35px;
+    color:white;
+}
+
+/* ito yung tungkol dun sa kung san ako nakatapos */
+.intro2 {
+    margin-left: 500px;
+    font-size:15px;
+    color:white;
+}
+
+
+/* ito yung ginawa kong linya pang separate nung dalawang div */
+hr.rounded1 {
+    border-top: 3px solid #bbb;
+    border-radius: 5px;
+}
+
+/* eto yung may 3 paragraph n naka align sa iisang line lng */
+
+.thirdbox{
+    float:left;
+    background-color: lightgrey;
+    width: 300px;
+    border: 10px solid rgb(31, 31, 247);
+    padding: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.firstbox{
+    float:left;
+    background-color: lightgrey;
+    width: 300px;
+    border: 10px solid rgb(31, 31, 247);
+    padding: 50px;
+    margin-left: 70px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.secondbox{
+    float:right;
+    background-color: lightgrey;
+    width: 300px;
+    border: 10px solid rgb(31, 31, 247);
+    padding: 50px;
+    margin-right:40px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+
+
+
+.interestbox{
+    text-align:center;
+}
+/* separator line */
+hr.rounded1 {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
+
+
+/* Anime And Movies */
+
+.anime {
+    float:left;
+    margin-left:200px;
+    margin-right: 20px;
+    position: relative;
+    border: 15px solid skyblue;
+    background-color:skyblue ;
+    border-radius:40%;
+    
+}
+.anitext {
+    margin-left: 300px;
+    margin-right: 160px;
+    font-size:25px;
+    color:white;
+}
+
+.movie {
+    float:left;
+    margin-left:200px;
+    margin-right: 20px;
+    position: relative;
+    border: 15px solid grey;
+    background-color:grey ;
+    border-radius:40%;
+}
+.mov1text {
+    margin-left: 300px;
+    margin-right: 40px;
+    font-size:25px;
+    color:white;
+    margin-right: 160px;
+}
+
+.hunter {
+    float:left;
+    margin-left:200px;
+    border: 15px solid saddlebrown;
+    border-radius: 45px;
+    background-color: saddlebrown;
+}
+
+.naruto {
+    float:right;
+    margin-right:200px;
+    border: 15px solid darkgoldenrod;
+    border-radius: 45px;
+    background-color: darkgoldenrod;
+
+}
+
+.ds {
+    float:center;
+    margin-left:585px;
+    border-radius: 45px;
+
+}
+
+.otherAniText {
+    font-size: 20px;
+    color:white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.musiclogo{
+    margin-left:600px;
+}
+
+.instru {
+    float:left;
+    margin-left:100px;
+    margin-right: 20px;
+    position: relative;
+    border: 15px groove grey;
+    background-color: grey ;
+}
+.instruText {
+    margin-left: 300px;
+    margin-right: 100px;
+    font-size:25px;
+    color:white;
+}
+
+
+.bw {
+    float:left;
+    margin-left: 250px;
+    border: 5px solid skyblue;
+    border-radius: 45px;
+    background-color: skyblue;
+}
+
+.bwText {
+    color:white;
+    font-size: 30px;
+    float: left;
+    margin-left: 280px;
+}
+
+.band {
+    float: right;
+    margin-right: 250px;
+    border: 5px solid skyblue;
+    border-radius: 45px;    
+    background-color: skyblue;
+}
+
+.bandText {
+    color:white;
+    font-size: 30px;
+    float: right;
+    margin-right: 310px;
+}
+
+
+
+/* genre */
+.hiphop {
+    float:left;
+    margin-left:100px;
+    margin-right: 20px;
+    position: relative;
+    border: 15px groove grey;
+    background-color:grey ;
+}
+.hiphopText {
+    margin-left: 300px;
+    margin-right: 100px;
+    font-size:25px;
+    color:white;
+}
+
+.idolrapper {
+    float:left;
+    margin-left:100px;
+    margin-right: 20px;
+    position: relative;
+    border: 15px groove grey;
+    background-color:grey ;
+}
+.idolrapperText {
+    margin-left: 300px;
+    margin-right: 100px;
+    font-size:25px;
+    color:white;
+}
+
+.rapsong {
+    float:left;
+    margin-left:100px;
+    margin-right: 20px;
+    position: relative;
+    border: 15px groove grey;
+    background-color:grey ;
+}
+.rapsongText {
+    margin-left: 300px;
+    margin-right: 100px;
+    font-size:25px;
+    color:white;
+}
+
+.mylove {
+    float:right;
+    margin-left:100px;
+    margin-right: 100px;
+    position: relative;
+    border: 15px groove grey;
+    background-color:grey ;
+}
+.myloveText {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size:25px;
+    color:white;
+}
+
+.parokya {
+    float:right;
+    margin-left:100px;
+    margin-right: 100px;
+    position: relative;
+    border: 15px groove grey;
+    background-color:grey ;
+}
+.parokyaText {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size:25px;
+    color:white;
+}
+
+
+
+.email {
+    float:left;
+    margin-left:100px;
+    margin-right: 20px;
+    position: relative;
+}
+.emailText {
+    margin-left: 300px;
+    margin-right: 100px;
+    font-size:25px;
+    color:white;
+}
+
+
+.facebook {
+    float:left;
+    margin-left:70px;
+    margin-right: 20px;
+    position: relative;
+}
+.facebookText {
+    margin-left: 300px;
+    margin-right: 100px;
+    font-size:25px;
+    color:white;
+}
+
+
+.number {
+    float:left;
+    margin-left:110px;
+    margin-right: 20px;
+    position: relative;
+}
+.numberText {
+    margin-left: 300px;
+    margin-right: 100px;
+    font-size:25px;
+    color:white;
+}
+
+/* FAMILY MEMBERS CSS CODE HERE */
+
+
+.salazarFam{
+    float:left;
+    margin-left:450px;
+    margin-right: 20px;
+    position: relative;
+    border:10px solid lightblue;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+
+.overlayfam {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 600px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 600px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove grey;
+    border-radius: 50%;
+  }
+
+  .salazarFam:hover .overlayfam {
+    bottom: 0;
+    height: 405px;
+    width:600px;
+}
+
+.textFamily {
+    color: white;
+    font-size: 60px;
+    text-shadow: 3px 3px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.tatayrey {
+    float:left;
+    margin-left:110px;
+    margin-right: 20px;
+    position: relative;
+    border:10px solid blue;
+    background-color: blue;
+    border-radius: 15px;
+}
+.tatayreyText {
+    margin-left: 450px;
+    margin-right: 100px;
+    font-size:25px;
+    color:black;
+    border:5px groove blue;
+    background-color:rgb(166, 166, 255);
+    padding: 10px;
+    border-radius: 35px;
+}
+
+
+
+
+/* this where i code to hover the text on image profile */
+.overlaytatay {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: rgb(166, 166, 255);
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove rgb(166, 166, 255);
+    border-radius: 15px;
+  }
+
+  .tatayrey:hover .overlaytatay {
+    bottom: 0;
+    height: 305px;
+}
+
+.texttatay {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.p1 {
+    color:white;
+    font-size: 50px;
+}
+
+.inaynoneth {
+    float:right;
+    margin-left:20px;
+    margin-right: 110px;
+    position: relative;
+    border:10px solid blue;
+    background-color: blue;
+    border-radius: 15px;
+}
+.inaynonethText {
+    margin-left: 100px;
+    margin-right: 450px;
+    font-size:25px;
+    color:black;
+    border:5px groove blue;
+    background-color:rgb(166, 166, 255);
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.overlayinay {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: rgb(166, 166, 255);
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove rgb(166, 166, 255);
+    border-radius: 15px;
+  }
+
+  .inaynoneth:hover .overlayinay {
+    bottom: 0;
+    height: 305px;
+}
+
+.textinay {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.kuaison {
+    float:left;
+    margin-left:110px;
+    margin-right: 20px;
+    position: relative;
+    border:10px solid skyblue;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+.kuaisonText {
+    margin-left: 450px;
+    margin-right: 100px;
+    font-size:25px;
+    color:black;
+    border:5px solid grey;
+    background-color:skyblue;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.overlaykuaison {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove grey;
+    border-radius: 15px;
+  }
+
+  .kuaison:hover .overlaykuaison {
+    bottom: 0;
+    height: 305px;
+}
+
+.textkuaison {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.atelinlen {
+    float:right;
+    margin-left:20px;
+    margin-right: 110px;
+    position: relative;
+    border:10px solid skyblue;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+.atelinlenText {
+    margin-left: 100px;
+    margin-right: 450px;
+    font-size:25px;
+    color:black;
+    border:5px solid gray;
+    background-color:skyblue;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.overlayatelinlen {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove grey;
+    border-radius: 15px;
+  }
+
+  .atelinlen:hover .overlayatelinlen {
+    bottom: 0;
+    height: 305px;
+}
+
+.textatelinlen {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.kuaimbel{
+    float:left;
+    margin-left:110px;
+    margin-right: 20px;
+    position: relative;
+    border:10px solid skyblue;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+.kuaimbelText {
+    margin-left: 450px;
+    margin-right: 100px;
+    font-size:25px;
+    color:black;
+    border:5px solid grey;
+    background-color:skyblue;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.overlaykuaimbel {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove grey;
+    border-radius: 15px;
+  }
+
+  .kuaimbel:hover .overlaykuaimbel {
+    bottom: 0;
+    height: 305px;
+}
+
+.textkuaimbel {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.kuadarnel {
+    float:right;
+    margin-left:20px;
+    margin-right: 110px;
+    position: relative;
+    border:10px solid skyblue;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+.kuadarnelText {
+    margin-left: 100px;
+    margin-right: 450px;
+    font-size:25px;
+    color:black;
+    border:5px solid grey;
+    background-color:skyblue;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.overlaykuadarnel {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove grey;
+    border-radius: 15px;
+  }
+
+  .kuadarnel:hover .overlaykuadarnel {
+    bottom: 0;
+    height: 305px;
+}
+
+.textkuadarnel {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.kuaderick{
+    float:left;
+    margin-left:110px;
+    margin-right: 20px;
+    position: relative;
+    border:10px solid skyblue;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+.kuaderickText {
+    margin-left: 450px;
+    margin-right: 100px;
+    font-size:25px;
+    color:black;
+    border:5px solid gray;
+    background-color:skyblue;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.overlaykuaderick {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove grey;
+    border-radius: 15px;
+  }
+
+  .kuaderick:hover .overlaykuaderick {
+    bottom: 0;
+    height: 305px;
+}
+
+.textkuaderick {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.ateshai {
+    float:right;
+    margin-left:20px;
+    margin-right: 110px;
+    position: relative;
+    border:10px solid skyblue;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+.ateshaiText {
+    margin-left: 100px;
+    margin-right: 450px;
+    font-size:25px;
+    color:black;
+    border:5px solid grey;
+    background-color:skyblue;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.overlayateshai {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove grey;
+    border-radius: 15px;
+  }
+
+  .ateshai:hover .overlayateshai {
+    bottom: 0;
+    height: 305px;
+}
+
+.textateshai {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.ateshenna{
+    float:left;
+    margin-left:110px;
+    margin-right: 20px;
+    position: relative;
+    border:10px solid skyblue;
+    background-color:skyblue;
+    border-radius: 15px;
+}
+.ateshennaText {
+    margin-left: 450px;
+    margin-right: 100px;
+    font-size:25px;
+    color:black;
+    border:5px solid gray;
+    background-color:skyblue;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.overlayateshenna {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove grey;
+    border-radius: 15px;
+  }
+
+  .ateshenna:hover .overlayateshenna {
+    bottom: 0;
+    height: 305px;
+}
+
+.textateshenna {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.tutoy {
+    float:right;
+    margin-left:20px;
+    margin-right: 110px;
+    position: relative;
+    border:10px solid skyblue;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+.tutoyText {
+    margin-left: 100px;
+    margin-right: 450px;
+    font-size:25px;
+    color:black;
+    border:5px solid grey;
+    background-color:skyblue;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.overlaytutoy {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove grey;
+    border-radius: 15px;
+  }
+
+  .tutoy:hover .overlaytutoy {
+    bottom: 0;
+    height: 305px;
+}
+
+.texttutoy {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.bunso{
+    float:left;
+    margin-left:110px;
+    margin-right: 20px;
+    position: relative;
+    border:10px solid skyblue;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+
+.bunsoText {
+    margin-left: 450px;
+    margin-right: 100px;
+    font-size:25px;
+    color:black;
+    border:5px solid gray;
+    background-color:skyblue;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.overlaybunso {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    height:300px;
+    position:absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    width: 300px;
+    height:0;
+    transition: .5s ease;
+    border:0px groove grey;
+    border-radius: 15px;
+  }
+
+  .bunso:hover .overlaybunso {
+    bottom: 0;
+    height: 305px;
+}
+
+.textbunso {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* about code is here */
+
+.about1 {
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.about2 {
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
